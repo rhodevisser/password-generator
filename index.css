@@ -10,4 +10,12 @@ body {
     background-color: #1F2937;
 }
 
+.password-field {
+    width: 211px;
+    height: 39px;
+    font-size: 16px;
+    background-color: #273549;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 10px 10px 0px 10px
 }
