@@ -6,8 +6,8 @@ let passwordElTwo = document.getElementById("password-el-two");
 
 function generateRandomCharacter(){
     let char = Math.floor (Math.random() * characters.length);
-    let result = characters[char]
-    return result
+    return characters[char]  
+}
 }
 
 
