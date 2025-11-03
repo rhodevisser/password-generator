@@ -10,14 +10,16 @@ function generateRandomCharacter(){
 }
 
 function getRandomPassword() {
-let password = ""
+let passwordOne = ""
+let passwordTwo = ""
+
 for (let i = 0; i < 14; i++) {
-    let pwChar = generateRandomCharacter()
-    password += pwChar
+    passwordOne += generateRandomCharacter()
+    passwordTwo += generateRandomCharacter()
 }
 
-passwordElOne.textContent = password
-passwordElTwo.textContent = password
+passwordElOne.textContent = passwordOne
+passwordElTwo.textContent = passwordTwo
 }
 
 
