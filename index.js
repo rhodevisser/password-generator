@@ -8,6 +8,16 @@ function generateRandomCharacter(){
     let char = Math.floor (Math.random() * characters.length);
     return characters[char]  
 }
+
+function getRandomPassword() {
+let password = ""
+for (let i = 0; i < 14; i++) {
+    let pwChar = generateRandomCharacter()
+    password += pwChar
+}
+
+passwordElOne.textContent = password
+passwordElTwo.textContent = password
 }
 
 
