@@ -1,45 +1,76 @@
 body {
     margin: 0;
-    text-align: center;
+    text-align: left;
     background-color: #1C1C1C;
     font-family: "Inter", sans-serif;
+    color: white;
 }
 
-h1 {
+.left-space {
+    padding-left: 52px;
+}
+
+.head-title {
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 40px;
-    text-align: left;
-    padding-left: 52px;
     padding-top: 115px;
-
+    margin-bottom: 8px;
 }
 
-h2 {
-    padding-left: 52px;
-    text-align: left;
-}
-
-span {
+.head-title-purple {
     display: block;
     color: #8B5CF6;
+}
+
+.title-support-texts {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #D5D4D8;
+
 }
 
 .container-all-el {
     width: 550px;
     height: 550px;
     margin: auto;
-    background-color: #1F2937;
-    margin: auto;
+    background-color: #021e17;
 }
 
-.password-field {
-    width: 211px;
-    height: 39px;
+button {
+    background-color: #8B5CF6;
+    color: white;
+    border: none;
     font-size: 16px;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-left: 52px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.password-fields {
+    padding-top: 25px;
+    border-top: 1px #2F3E53 solid;
+    width: 446px;
+    margin-left: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.fields-passwords {
+    width: 192px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #C4B5FD;
     background-color: #273549;
     border-radius: 6px;
-    display: inline-block;
-    margin: 10px 10px 0px 10px
 }
