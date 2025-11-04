@@ -1,6 +1,26 @@
 body {
     margin: 0;
     text-align: center;
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 52px;
+    padding-top: 115px;
+
+}
+
+h2 {
+    padding-left: 52px;
+    text-align: left;
+}
+
+span {
+    display: block;
+    color: #8B5CF6;
 }
 
 .container-all-el {
