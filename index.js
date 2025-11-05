@@ -5,22 +5,29 @@ let passwordElOne = document.getElementById("password-el-one");
 let passwordElTwo = document.getElementById("password-el-two");
 
 function generateRandomCharacter(){
+    
     let char = Math.floor (Math.random() * characters.length);
     return characters[char]  
 }
 
 function getRandomPassword() {
-let passwordOne = ""
-let passwordTwo = ""
+
+let password = " "
 
 for (let i = 0; i < 14; i++) {
-    passwordOne += generateRandomCharacter()
-    passwordTwo += generateRandomCharacter()
+    password += generateRandomCharacter()
+    }  
+    return password    
 }
 
-passwordElOne.textContent = passwordOne
-passwordElTwo.textContent = passwordTwo
+
+function getRandomPasswordUI() {
+
+passwordElOne.textContent = getRandomPassword()
+passwordElTwo.textContent = getRandomPassword()
 }
+
+
 
 
 
