@@ -5,7 +5,7 @@ let passwordElOne = document.getElementById("password-el-one");
 let passwordElTwo = document.getElementById("password-el-two");
 
 function generateRandomCharacter(){
-    
+
     let char = Math.floor (Math.random() * characters.length);
     return characters[char]  
 }
@@ -23,8 +23,8 @@ for (let i = 0; i < 14; i++) {
 
 function getRandomPasswordUI() {
 
-passwordElOne.textContent = getRandomPassword()
-passwordElTwo.textContent = getRandomPassword()
+    passwordElOne.textContent = getRandomPassword()
+    passwordElTwo.textContent = getRandomPassword()
 }
 
 
